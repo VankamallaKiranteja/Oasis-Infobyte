@@ -1,0 +1,94 @@
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #be8585;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #270a0a;
+    text-decoration: none;
+}
+
+section#home {
+    background-color: #3a776c;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+section#features {
+    background-color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.features-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section#contact {
+    background-color: #f0f0f0;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #3260d56f;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #97ab49;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #f00606;
+    text-align: center;
+    padding: 1rem;
+}
